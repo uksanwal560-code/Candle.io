@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Candles.io - AI Photo to Video</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Candles.io</h1>
+    <p>Convert your photos into videos with AI — Free & Simple</p>
+  </header>
+
+  <main>
+    <section class="howto">
+      <h2>How it works?</h2>
+      <p>Paste your AI tool/embed link below to start:</p>
+      <div class="connector">
+        <input id="toolLink" type="text" placeholder="Paste embed link here...">
+        <button onclick="loadTool()">Load</button>
+      </div>
+      <div class="frame-wrap hidden" id="frameWrap">
+        <iframe id="toolFrame"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Candles.io | Built free on GitHub Pages</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
